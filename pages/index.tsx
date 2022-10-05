@@ -3,7 +3,7 @@ import Todo from "./components/Todo";
 const Index = () => {
   return (
     <>
-      <h2>Reminder</h2>
+      <h2>- Todo List -</h2>
       <Todo />
     </>
   );

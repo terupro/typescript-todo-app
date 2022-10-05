@@ -24,12 +24,13 @@ const Form: React.FC<FormProps> = ({ createTodo }) => {
       <form onSubmit={addTodo}>
         <input
           type="text"
+          placeholder="入力してね"
           value={enteredTodo}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             setEnteredTodo(e.target.value)
           }
         />
-        <button>追加</button>
+        <button>+</button>
       </form>
     </div>
   );

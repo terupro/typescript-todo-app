@@ -46,7 +46,7 @@ export const Item: React.FC<ItemProps> = ({ todo, complete, updateTodo }) => {
           )}
         </span>
       </form>
-      <button onClick={() => complete(todo.id)}>完了</button>
+      <button onClick={() => complete(todo.id)}>-</button>
     </div>
   );
 };
