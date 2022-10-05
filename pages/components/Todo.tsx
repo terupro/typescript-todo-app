@@ -12,17 +12,17 @@ const Todo = () => {
   const todosList = [
     {
       id: 1,
-      content: "店予約する",
+      content: "店を予約する",
       editing: false,
     },
     {
       id: 2,
-      content: "卵買う",
+      content: "卵を買う",
       editing: false,
     },
     {
       id: 3,
-      content: "郵便出す",
+      content: "郵便を出す",
       editing: false,
     },
   ];
